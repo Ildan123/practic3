@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    background: #FFF;
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+}
+nav{
+    display: grid;
+    
+}
+nav ul li{
+   border: 1px solid black;
+   padding: 10px 35px;
+   margin: 35px;
+}
+nav ul li a{
+    color: black;
+    font-size: 28px;
+}
+ 
+nav ul svg.pivo{
+    width: 100px;
+    height:100px 
+}
+nav ul div svg {
+    width: 20px;
+    height: 20px;
+    display:grid;
+
+}
+nav ul span{
+    width: 130px;
+    height: 15px;
+}
+div.piva img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 38px;
+}
+hr{
+    border: 0;
+    width: 230px;
+    background-color: red;
+    height: 1px;
+    margin: auto;
+  }
+
+p.tovar {
+    padding-top: 72px;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 46px;
+}
+ 
+section.pivko img{
+    width: 100px;
+    height: 300px;
+    
+}
+  
+section.pivko div.pivo4ka {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    grid-gap: 8em;
+    padding: 1em 0;
+    padding-left: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section.pivko div.pivo4ka span{
+    text-align: center;
+}
+
+footer span p{
+    color: red;
+}
+section.pivko div.pivo4ka div{
+    width: 300px;
+}
+footer svg{
+    width: 1310px;
+    height: 175px;
+}
